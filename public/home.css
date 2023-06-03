@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.home-sunphoto{
+    width: 835.39px;
+    height: 496.18px;
+    border-radius: 50px;
+}
+
+.home-text{
+    background-color: rgb(159, 144, 41);
+    margin-right: 70rem;
+    border-radius: 100px;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
