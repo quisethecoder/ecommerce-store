@@ -1,7 +1,38 @@
-body{
+*{
+    padding: 0;
     margin: 0;
+    
+}
+
+body{
     font-family: 'Montserrat', sans-serif;
-   
+}
+
+a:link{
+    text-decoration: none!important;
+    color: black;
+}
+
+a:hover{
+    color: rgb(173, 129, 39);
+}
+
+li{
+    text-align: center;
+    margin-left: 1rem;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;    
+}
+
+.nav-center{
+    text-align: center;
 }
 
 .home-sunphoto{
