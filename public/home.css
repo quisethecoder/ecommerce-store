@@ -8,7 +8,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-label{
+/* navbar section */
+
+.logo{
     font-weight: 900;
     font-size: 50px;
 }
@@ -58,6 +60,8 @@ li{
     margin-left: 10rem;
 }
 
+
+/* home intro section */
 
 .home-sunphoto{
     width: 835.39px;
