@@ -13,6 +13,10 @@ label{
     font-size: 50px;
 }
 
+a{
+    color: black;
+}
+
 a:link{
     text-decoration: none!important;
     color: rgb(0, 0, 0);
@@ -26,7 +30,7 @@ a:hover{
 
 li{
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 2rem;
     list-style: none;
     box-sizing: border-box;
 }
@@ -34,8 +38,8 @@ li{
 .nav-items{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-right: 2rem;    
+    align-items: center;   
+    margin-top: 1rem; 
 }
 
 .nav-center{
@@ -46,12 +50,12 @@ li{
 .nav-container{
     display: flex;
     text-align: center;
-    margin-left: 27rem;
+    margin-left: 26rem;
 }
 
 .fa-solid{
     margin-top: 6rem;
-    margin-left: 15rem;
+    margin-left: 10rem;
 }
 
 
