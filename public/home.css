@@ -47,6 +47,7 @@ li{
 .nav-center{
     text-align: center;
     margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .nav-container{
@@ -63,17 +64,33 @@ li{
 
 /* home intro section */
 
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20rem;
+    margin-left: 14rem;
+}
 .home-sunphoto{
     width: 835.39px;
     height: 496.18px;
     border-radius: 50px;
+    position: relative;
+    
 }
 
 .home-text{
-    background-color: rgb(159, 144, 41);
-    margin-right: 70rem;
+    background-color: #bb9306;
     border-radius: 100px;
     padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 15rem;
+    margin-right: 28rem;
+    margin-left: 28rem;
+    position: absolute;
+    transform: translate(-160%, 5%);
 }
+
+
+
+
 
