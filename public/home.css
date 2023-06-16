@@ -118,8 +118,8 @@ li{
     margin-left: 181px;
 }
 
-.main-photo{
-    box-shadow: 10px 5px 15px 20px gray;
+.product-photo{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .prod-pic{
