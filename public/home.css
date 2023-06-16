@@ -10,9 +10,9 @@ body{
 
 /* navbar section */
 
-/* .navbar{
+.navbar{
     background-color: #bb9306;
-} */
+}
 
 .logo{
     font-weight: 900;
@@ -107,9 +107,32 @@ li{
 
 /* home product section */
 
+.photo-container{
+    display: inline-block;
+    margin-bottom: 20rem;
+}
+
 .product-photo{
     width: 560px;
     height: 503px;
     margin-left: 181px;
 }
 
+.main-photo{
+    box-shadow: 10px 5px 15px 20px gray;
+}
+
+.prod-pic{
+    width: 90px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.gallery-photo{
+    margin-left: 181px;
+    margin-top: 1rem;
+}
+
+.gallery-text{
+    margin-left: 181px;
+}
