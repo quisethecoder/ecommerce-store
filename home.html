@@ -61,33 +61,16 @@
   <!-- home product section -->
   <div class="photo-container">
       <div class="main-photo">
-        <!-- take a look at this id when you get a chance -->
-         <img id="expandedImg" class="product-photo" src="./images/sunphoto.jpg" alt="sun photo">
+        <span onclick="this.parentElement.style.display='none'">&times;</span>
+         <img id="main-pic" class="product-photo" src="./images/sunphoto.jpg" alt="sun photo" >
       </div>
-      <div class="gallery-photo">
-        <div class="column">
-          <img class="prod-pic" src="./images/sunsetredsslphoto.png" alt="Lamp Product 1">
-        </div>
-
-        <div class="column">
-          <img class="prod-pic" src="./images/sunsetsslphoto.png" alt="Lamp Product 2" >
-        </div>
-
-        <div class="column">
-          <img class="prod-pic" src="./images/sunsslphoto.png" alt="Lamp Product 3">
-        </div>
-
-        <div class="column">
-          <img class="prod-pic" src="./images/rainbowsslphoto.png" alt="Lamp Product 5">
-        </div>
-
-        <div class="column">
-          <img class="prod-pic" src="./images/prodphoto5.jpeg" alt="Sunset Lamps together">
-        </div>
-
-        <div class="column">
-          <img class="prod-pic" src="./images/sunphoto.jpg" alt="sun photo">
-        </div>
+      <div class="gallery-photo"> 
+          <img class="prod-pic" src="./images/sunsetredsslphoto.png" alt="Lamp Product 1" onclick="photoGallery(this);">
+          <img class="prod-pic" src="./images/sunsetsslphoto.png" alt="Lamp Product 2" onclick="photoGallery(this);">
+          <img class="prod-pic" src="./images/sunsslphoto.png" alt="Lamp Product 3" onclick="photoGallery(this);">
+          <img class="prod-pic" src="./images/rainbowsslphoto.png" alt="Lamp Product 5" onclick="photoGallery(this);">
+          <img class="prod-pic" src="./images/prodphoto5.jpeg" alt="Sunset Lamps together" onclick="photoGallery(this);">
+          <img class="prod-pic" src="./images/sunphoto.jpg" alt="sun photo" onclick="photoGallery(this);">
      </div>
      <a href="./product.html" class="gallery-text" >View full product details</a>
   </div>
