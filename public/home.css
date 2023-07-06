@@ -139,7 +139,12 @@ a:hover{
 
 /* Pricing Section */
 
+.product-div{
+    display: flex;
+}
+
 .price-container{
+    margin-left: 7rem;
     margin-bottom: 20rem;
 }
 
