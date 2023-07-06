@@ -136,3 +136,32 @@ a:hover{
 .gallery-text{
     margin-left: 181px;
 }
+
+/* Pricing Section */
+
+.price-container{
+    margin-bottom: 20rem;
+}
+
+.counter{
+    height: 2rem;
+    width: 10rem;
+    padding-top: 10px;
+    /* background-color: blue; */
+    margin-left: 10rem;
+    border-radius: 23px;
+    
+    border:1px solid #000000;
+}
+
+.minus, .num, .plus{
+    margin-left: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.counter span.num{
+    pointer-events: none;
+}
