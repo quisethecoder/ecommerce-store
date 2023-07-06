@@ -148,7 +148,7 @@ a:hover{
     width: 10rem;
     padding-top: 10px;
     /* background-color: blue; */
-    margin-left: 10rem;
+    
     border-radius: 23px;
     
     border:1px solid #000000;
@@ -162,6 +162,24 @@ a:hover{
     cursor: pointer;
 }
 
-.counter span.num{
-    pointer-events: none;
+.counter span{
+    width: 100%;
 }
+
+.btn {
+    -webkit-border-radius: 23;
+    -moz-border-radius: 23;
+    border-radius: 23px;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    background: #169b2d;
+    padding: 10px 100px 10px 100px;
+    border: solid #000000 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #138025;
+    text-decoration: none;
+  }
