@@ -167,9 +167,10 @@ a:hover{
 }
 
 .btn {
-    -webkit-border-radius: 23;
-    -moz-border-radius: 23;
-    border-radius: 23px;
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #ffffff;
     font-size: 20px;
