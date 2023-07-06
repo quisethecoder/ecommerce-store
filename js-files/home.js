@@ -1,4 +1,4 @@
-// for the button on hover show a pic of the lamp that it would be I save an example from amazon
+// Photo Gallery Section
 
 function photoGallery(imgs) {
   var expandImg = document.getElementById("main-pic");
@@ -7,3 +7,27 @@ function photoGallery(imgs) {
  
   expandImg.parentElement.style.display = "block";
 }
+
+// Quantity Button Section
+
+const plus = document.querySelector(".plus"),
+minus = document.querySelector(".minus"),
+num = document.querySelector(".num");
+
+let a = 1
+
+plus.addEventListener("click", ()=> {
+  a++;
+
+  a = (a < 10) ? a : a;
+
+  num.innerText = a;
+});
+
+minus.addEventListener("click", ()=>{
+  if(a > 1){
+    a--;
+    a = (a<10) ? a : a;
+    num.innerText = a;
+  }
+});
