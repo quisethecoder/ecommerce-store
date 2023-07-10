@@ -152,15 +152,12 @@ a:hover{
     height: 2rem;
     width: 10rem;
     padding-top: 10px;
-    /* background-color: blue; */
-    
+    display: flex;
     border-radius: 23px;
-    
     border:1px solid #000000;
 }
 
 .minus, .num, .plus{
-    margin-left: 2rem;
     text-align: center;
     align-items: center;
     justify-content: center;
