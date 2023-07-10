@@ -149,14 +149,21 @@ a:hover{
 }
 
 .container-heading-price{
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .price-heading{
+    font-size: 43px;
     margin-bottom: 2rem;
 }
 
+.price{
+    font-size: 30px;
+    font-weight: 300;
+}
+
 .color-heading{
+    font-size: 35px;
     margin-bottom: 1rem;
 }
 
@@ -169,12 +176,18 @@ a:hover{
 }
 
 .color-item{
+    font-size: 25px;
+    font-weight: 300;
     margin-right: 2rem;
     margin-bottom: 1rem;
 }
 
 .color-item:last-child{
     width: 100%;
+}
+
+.quantity-header{
+    font-size: 30px;
 }
 
 .counter{
