@@ -233,3 +233,38 @@ a:hover{
     background: #138025;
     text-decoration: none;
   }
+
+  /* footer section */
+
+  .footer-container{
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    padding: 3rem 11rem 3rem 11rem;
+  }
+
+  .footer-heading{
+    color: white;
+    margin-right: 8rem;
+  }
+
+  .company-links{
+    margin-right: 8rem;
+  }
+
+  .company-info{
+    margin-right: 3rem;
+  }
+
+  .info{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    list-style: none;
+    line-height: 2;
+    cursor: pointer;
+  }
+
+  .info:hover{
+    color: #7c7c7c;
+  }
