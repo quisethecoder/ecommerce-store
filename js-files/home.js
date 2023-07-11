@@ -1,4 +1,4 @@
-// Photo Gallery Section
+// Photo Gallery Section start
 
 function photoGallery(imgs) {
   var expandImg = document.getElementById("main-pic");
@@ -8,7 +8,26 @@ function photoGallery(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 
-// Quantity Button Section
+// Photo Gallery Section end
+
+
+// Color Selector Section start
+
+var btnContainer = document.getElementById("colors");
+
+var btns = btnContainer.getElementsByClassName("color-item");
+
+for (var i = 0; i < btns.length; i++){
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+// Color Selector Section end
+
+// Quantity Button Section start
 
 const plus = document.querySelector(".plus"),
 minus = document.querySelector(".minus"),
@@ -32,3 +51,5 @@ minus.addEventListener("click", ()=>{
     num.innerText = a;
   }
 });
+
+// Quantity Button Section end
