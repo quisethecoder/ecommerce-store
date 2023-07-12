@@ -19,17 +19,17 @@ body{
     font-size: 50px;
 }
 
-a{
+.n, .c{
     color: black;
 }
 
-a:link{
+.n:link{
     text-decoration: none!important;
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
-a:hover{
+.n:hover{
     color: rgb(219, 219, 219);
 }
 
