@@ -8,61 +8,62 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* navbar section */
 
 .navbar{
-    background-color: #bb9306;
+  background-color: #bb9306;
 }
 
 .logo{
-    font-weight: 900;
-    font-size: 50px;
+  font-weight: 900;
+  font-size: 50px;
 }
 
-a{
-    color: black;
+.n, .c{
+  color: black;
 }
 
-a:link{
-    text-decoration: none!important;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+.n:link{
+  text-decoration: none!important;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
-a:hover{
-    color: rgb(219, 219, 219);
+.n:hover{
+  color: rgb(219, 219, 219);
 }
 
 
 .nav-li{
-    text-align: center;
-    margin-left: 2rem;
-    list-style: none;
-    box-sizing: border-box;
+  text-align: center;
+  margin-left: 2rem;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 .nav-items{
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    margin-top: 1rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  margin-top: 1rem; 
 }
 
 .nav-center{
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .nav-container{
-    display: flex;
-    text-align: center;
-    margin-left: 26rem;
+  display: flex;
+  text-align: center;
+  margin-left: 26rem;
 }
 
 .fa-solid{
-    margin-top: 6rem;
-    margin-left: 10rem;
+  margin-top: 6rem;
+  margin-left: 10rem;
 }
 
 
