@@ -19,11 +19,11 @@ body{
     font-size: 50px;
 }
 
-.n, .c{
+.n, .c, .gallery-text{
     color: black;
 }
 
-.n:link{
+.n:link, .gallery-text{
     text-decoration: none!important;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -134,6 +134,10 @@ body{
 
 .gallery-text{
     margin-left: 181px;
+}
+
+.gallery-text:hover{
+    color: #bb9306;
 }
 
 /* Pricing Section */
