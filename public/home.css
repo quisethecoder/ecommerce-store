@@ -109,7 +109,6 @@ a:hover{
 
 .photo-container{
     display: inline-block;
-    margin-bottom: 5rem;
 }
 
 .product-photo{
@@ -145,7 +144,6 @@ a:hover{
 
 .price-container{
     margin-left: 7rem;
-    margin-bottom: 20rem;
 }
 
 .container-heading-price{
@@ -240,6 +238,7 @@ a:hover{
     display: flex;
     background-color: #000000;
     width: 100%;
+    margin-top: 5rem;
     padding: 3rem 11rem 3rem 11rem;
   }
 
