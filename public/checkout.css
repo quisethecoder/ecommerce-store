@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar section */
+
+.navbar{
+    background-color: #bb9306;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none!important;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(219, 219, 219);
+}
+
+
+.nav-li{
+    text-align: center;
+    margin-left: 2rem;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 1rem; 
+}
+
+.nav-center{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.nav-container{
+    display: flex;
+    text-align: center;
+    margin-left: 26rem;
+}
+
+.fa-solid{
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+
+
+  /* footer section */
+
+  .footer-container{
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 3rem 11rem 3rem 11rem;
+  }
+
+  .footer-heading{
+    color: white;
+    margin-right: 8rem;
+  }
+
+  .company-links{
+    margin-right: 8rem;
+  }
+
+  .company-info{
+    margin-right: 3rem;
+  }
+
+  .info{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    list-style: none;
+    line-height: 2;
+    cursor: pointer;
+  }
+
+  .info:hover{
+    color: #7c7c7c;
+  }
