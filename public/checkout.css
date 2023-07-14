@@ -66,6 +66,19 @@ body{
   margin-left: 10rem;
 }
 
+/* Checkout section */
+
+.checkout-container{
+  display: inline-block;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+/* .checkout-header, .sub-money, .btn{
+  
+} */
+
+
 
   /* footer section */
 
