@@ -12,16 +12,17 @@ body{
 /* navbar section */
 
 .navbar{
-  background-color: #bb9306;
+  background-color: #000000;
 }
 
 .logo{
   font-weight: 900;
   font-size: 50px;
+  color: #ffffff;
 }
 
 .n, .c{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .n:link{
