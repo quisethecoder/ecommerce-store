@@ -12,16 +12,17 @@ body{
 /* navbar section */
 
 .navbar{
-  background-color: #bb9306;
+  background-color: #000000;
 }
 
 .logo{
   font-weight: 900;
   font-size: 50px;
+  color: #ffffff;
 }
 
 .n, .c{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .n:link{
@@ -72,11 +73,61 @@ body{
   display: inline-block;
   text-align: center;
   margin-top: 8rem;
+  background-color: #d9d9d9;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 15px;
 }
 
-/* .checkout-header, .sub-money, .btn{
-  
-} */
+
+.checkout-header, .sub-money, .btn{
+  font-weight: 300;
+}
+
+.checkout-header{
+  font-size: 36px;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #000
+}
+
+.sub-money{
+  margin-top: 2rem;
+}
+
+.mid{
+  opacity: 53%;
+  font-size: 24px;
+}
+
+.low{
+  font-size: 28px;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #000
+}
+
+
+.btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 24px;
+  background: #169b2d;
+  padding: 10px 100px 10px 100px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background: #138025;
+  text-decoration: none;
+}
+
+
 
 
 
