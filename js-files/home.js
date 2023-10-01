@@ -1,5 +1,4 @@
-const checkoutLink = document.querySelector(".c");
-
+let cart = [];
 
 // Photo Gallery Section start
 
@@ -88,20 +87,7 @@ let products = [
 ];
 let listCards = [];
 
-let cart = [];
 
-function addToCart(button){
-    const productIndex = getProductIndex(button);
-    cart.push(products[productIndex]);
-    console.log("Added to cart", products[productIndex]);
-}
-
-function getProductIndex(button){
-    const productDiv = button.closest(".price-container");
-    return parseInt(productDiv.dataset.productIndex);
-}
-
-checkoutLink.href = "checkout.html?cart=" + encodeURIComponent(JSON.stringify(cart));
 
 
 
