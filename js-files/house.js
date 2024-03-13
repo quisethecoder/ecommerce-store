@@ -15,11 +15,12 @@ let cart = [];
 
 
 function photoGallery(imgs) {
-    var expandImg = document.getElementById("main-pic");
-   
+    var expandImg = document.getElementById("main-pic");  
     expandImg.src = imgs.src;
-   
     expandImg.parentElement.style.display = "block";
+
+    const addToCartButton = document.querySelector(".btn");
+    addToCartButton.setAttribute("data-product-color", imgs.alt);
   }
 
 
@@ -89,12 +90,12 @@ let products = [
 
   let selectedQuantity = 1;
 
-
-  function addToCart(button){
+let selectedColor;
+  
 
   colorItems.forEach((colorItem) => {
     colorItem.addEventListener("click", () => {
-        const selectedColor = colorItem.getAttribute("data-product-color");
+        selectedColor = colorItem.getAttribute("data-product-color");
         const selectedProduct = products.find((product) => product.color === selectedColor);
 
         productImage.src = selectedProduct.image;
@@ -102,6 +103,8 @@ let products = [
         selectedQuantity = parseInt(colorItem.getAttribute("data-product-quantity"));
 
         numElement.innerText = selectedQuantity;
+
+        addToCart(selectedColor);
 
     });
   });
@@ -120,12 +123,12 @@ let products = [
     }
   })
 
+//  The problem is the parseint isnt retrieving the proper information needed to update the button
  
- 
-
-    const productIndex = parseInt(button.getAttribute("data-product-index"));
-    const productColor = button.getAttribute("data-product-color");
-    const productQuantity = parseInt(button.getAttribute("data-product-quantity"));
+  function addToCart(productColor){
+    const productIndex = products.findIndex((product) => product.id === productColor);
+    // const productColor = selectedColor 
+    const productQuantity = selectedQuantity;
 
         const product = {
             index: productIndex,
