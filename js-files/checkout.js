@@ -21,3 +21,4 @@
 // // Call the function to populate the checkout page when the page loads.
 // populateCheckoutPage();
 
+// Try local storage
