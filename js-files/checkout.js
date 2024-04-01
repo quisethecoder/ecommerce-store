@@ -1,24 +1,18 @@
-// // Assume you have an empty <ul> element with the id "cart-list" on your checkout page.
-// const cartList = document.getElementById("cart-list");
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the stored product information from sessionStorage
+    const storedProduct = sessionStorage.getItem('cartProduct');
 
-// function populateCheckoutPage() {
-//   // Clear any existing items in the cart list.
-//   cartList.innerHTML = "";
+    // Check if there's any stored product information
+    if (storedProduct) {
+        // Parse the stored JSON string to get the product object
+        const productInfo = JSON.parse(storedProduct);
 
-//   // Iterate through the items in the cart and create list items for each.
-//   cart.forEach((item, index) => {
-//     const listItem = document.createElement("li");
-//     listItem.innerHTML = `
-//       Product: ${products[item.index].name}<br>
-//       Color: ${item.color}<br>
-//       Quantity: ${item.quantity}<br>
-//       Price: $${(products[item.index].price * item.quantity).toFixed(2)}
-//     `;
-//     cartList.appendChild(listItem);
-//   });
-// }
+        // Display the product information on the checkout page
+        const colorDisplay = document.getElementById('color-display');
+        const quantityDisplay = document.getElementById('quantity-display');
 
-// // Call the function to populate the checkout page when the page loads.
-// populateCheckoutPage();
-
-// Try local storage
+        // Update the HTML content with the retrieved product information
+        colorDisplay.textContent = productInfo.color;
+        quantityDisplay.textContent = productInfo.quantity;
+    }
+});
