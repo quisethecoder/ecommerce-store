@@ -244,8 +244,10 @@ body{
     background-color: #000000;
     width: 100%;
     margin-top: 5rem;
-    padding: 3rem 11rem 3rem 11rem;
+    padding: 3rem 2rem 3rem 2rem;
   }
+
+ 
 
   .footer-heading{
     color: white;

@@ -55,37 +55,6 @@ minus.addEventListener("click", ()=>{
 
 // Checkout/add to cart section start
 
-let products = [
-  {
-    id: 1,
-    color: "Sun",
-    name: "Sunset Lamp",
-    image: "sunsslphoto.png",
-    price: 2999
-  },
-  {
-    id: 2,
-    color: "Sunset",
-    name: "Sunset Lamp",
-    image: "sunsetsslphoto.png",
-    price: 2999
-  },
-  {
-    id: 3,
-    color: "Sunset Red",
-    name: "Sunset Lamp",
-    image: "sunsetredsslphoto.png",
-    price: 2999
-  },
-  {
-    id: 4,
-    color: "Rainbow",
-    name: "Sunset Lamp",
-    image: "rainbowsslphoto.png",
-    price: 2999
-  },
-];
-let listCards = [];
 
 
 
