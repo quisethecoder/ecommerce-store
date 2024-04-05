@@ -49,4 +49,3 @@ addToCartButton.addEventListener('click', () => {
     window.location.href = 'checkout.html';
 });
 
-// Find the back the wont allow you to select the photo
