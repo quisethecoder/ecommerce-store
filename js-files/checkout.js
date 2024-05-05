@@ -10,9 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Display the product information on the checkout page
         const colorDisplay = document.getElementById('color-display');
         const quantityDisplay = document.getElementById('quantity-display');
+        const priceDisplay = document.getElementById("price-display");
 
         // Update the HTML content with the retrieved product information
         colorDisplay.textContent = productInfo.color;
         quantityDisplay.textContent = productInfo.quantity;
-    }
+    } 
 });

@@ -7,7 +7,7 @@ const addToCartButton = document.querySelector('.btn');
 
 
 
-const checkoutLink = document.querySelector(".c");
+const checkoutLink = document.querySelector(".c"); 
 
 
 // Photo Gallery Section start
