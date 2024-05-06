@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Get the stored product information from sessionStorage
+    // Retrieve the stored product information from sessionStorage
     const storedProduct = sessionStorage.getItem('cartProduct');
 
-    // Check if there's any stored product information
     if (storedProduct) {
-        // Parse the stored JSON string to get the product object
-        const productInfo = JSON.parse(storedProduct);
+        const productInfo = JSON.parse(storedProduct); // Parse stored product data
 
-        // Display the product information on the checkout page
+        // Display product details on the checkout page
         const colorDisplay = document.getElementById('color-display');
         const quantityDisplay = document.getElementById('quantity-display');
-        const priceDisplay = document.getElementById("price-display");
+        const priceDisplay = document.getElementById('price-display');
+        const productImage = document.getElementById('product-image'); // Element to display product image
 
-        // Update the HTML content with the retrieved product information
-        colorDisplay.textContent = productInfo.color;
-        quantityDisplay.textContent = productInfo.quantity;
-    } 
+        colorDisplay.textContent = productInfo.color; // Display color
+        quantityDisplay.textContent = productInfo.quantity; // Display quantity
+        priceDisplay.textContent = `$${(productInfo.price * productInfo.quantity).toFixed(2)}`; // Display total price
+        productImage.src = productInfo.image; // Set the image source to the correct product image
+    }
 });
