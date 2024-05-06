@@ -3,8 +3,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const checkoutContainer = document.querySelector('.checkout-container');
     const checkoutSummary = document.querySelector('.checkout-summary');
+    const checkoutButton = checkoutSummary.querySelector('.btn'); // The checkout button
 
     const shippingCost = 5.00; // Fixed shipping cost
+
+    // Function to generate a random order number
+    const generateOrderNumber = () => {
+        const randomDigits = Math.floor(100000 + Math.random() * 900000); // 6-digit random number
+        return `SL${randomDigits}`; // Prefix with "SL" for Sunset Lamp
+    };
 
     // Function to calculate the subtotal
     const calculateSubtotal = () => {
@@ -13,18 +20,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to update the order summary
     const updateOrderSummary = () => {
-        if (cart.length === 0) {
-            // Reset to zero if there are no items
+        if (cart.length === 0) { // Reset to zero if there are no items
             checkoutSummary.querySelector('.sub-money.mid:nth-of-type(1)').textContent = `Subtotal: $0.00`;
             checkoutSummary.querySelector('.sub-money.mid:nth-of-type(2)').textContent = `Shipping: $0.00`;
             checkoutSummary.querySelector('.sub-money.mid:nth-of-type(3)').textContent = `Tax: $0.00`;
             checkoutSummary.querySelector('.sub-money.low').textContent = `Total: $0.00`;
-        } else {
-            const subtotal = calculateSubtotal(); // Get the subtotal
+        } else { // Calculate and update the summary if there are items
+            const subtotal = calculateSubtotal();
             const tax = subtotal * 0.06; // 6% tax
-            const total = subtotal + shippingCost + tax; // Calculate the total price
+            const total = subtotal + shippingCost + tax;
 
-            // Update the order summary details
             checkoutSummary.querySelector('.sub-money.mid:nth-of-type(1)').textContent = `Subtotal: $${subtotal.toFixed(2)}`;
             checkoutSummary.querySelector('.sub-money.mid:nth-of-type(2)').textContent = `Shipping: $${shippingCost.toFixed(2)}`;
             checkoutSummary.querySelector('.sub-money.mid:nth-of-type(3)').textContent = `Tax: $${tax.toFixed(2)}`;
@@ -32,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
-    // Function to render the cart items
+    // Function to render the cart
     const renderCart = () => {
         checkoutContainer.innerHTML = ''; // Clear existing content
 
@@ -47,30 +52,31 @@ document.addEventListener('DOMContentLoaded', function () {
                         <h3 class="item-name">Sunset Lamp</h3>
                         <p class="item-color">Color: ${item.color}</p>
                         <div class="item-quantity">
-                            <button class="minus" data-index="${index}">-</button>
+                            <span class="minus" data-index="${index}">-</span>
                             <span>${item.quantity}</span>
-                            <button class="plus" data-index="${index}">+</button>
+                            <span class="plus" data-index="${index}">+</span>
                         </div>
                         <p class="item-price">$${(item.price * item.quantity).toFixed(2)}</p>
                     </div>
                     <span class="delete" data-index="${index}">
-                        <span>x</span>
+                        x
                     </span>
                 `;
 
                 checkoutContainer.appendChild(itemDiv);
             });
+
+            // Update the order summary with the current values
+            updateOrderSummary();
         } else {
             checkoutContainer.textContent = 'Your cart is empty.';
+            updateOrderSummary(); // Reset order summary when the cart is empty
         }
-
-        // Always update the order summary after rendering the cart
-        updateOrderSummary();
     };
 
-    // Function to update the cart
+    // Function to update the cart and re-render
     const updateCart = () => {
-        sessionStorage.setItem('cart', JSON.stringify(cart)); // Update sessionStorage
+        sessionStorage.setItem('cart', JSON.stringify(cart)); // Store the cart in sessionStorage
         renderCart(); // Re-render the cart
     };
 
@@ -87,16 +93,30 @@ document.addEventListener('DOMContentLoaded', function () {
             if (cart[index].quantity > 1) {
                 cart[index].quantity--; // Decrease the quantity
             } else {
-                cart.splice(index, 1); // Remove the item if quantity is one
+                cart.splice(index, 1); // Remove item if quantity is 1
             }
             updateCart(); // Update and re-render the cart
         }
 
         if (event.target.classList.contains('delete') || event.target.closest('.delete')) {
-            cart.splice(index, 1); // Remove the item completely
+            cart.splice(index, 1); // Remove the item
             updateCart(); // Update and re-render the cart
         }
     });
+
+    // Function to handle the checkout process
+    const handleCheckout = () => {
+        const orderNumber = generateOrderNumber();
+
+        sessionStorage.removeItem('cart'); // Clear the cart
+        checkoutContainer.innerHTML = `
+            <p>Thank you for shopping with us! Your order number is ${orderNumber}. You can use your order number to track your package on the track package page. We hope you enjoy!</p>
+        `;
+        checkoutSummary.style.display = 'none'; // Hide the checkout summary
+    };
+
+    // Add event listener for the checkout button
+    checkoutButton.addEventListener('click', handleCheckout);
 
     renderCart(); // Initial render of the cart
 });
