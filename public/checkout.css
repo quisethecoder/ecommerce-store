@@ -72,10 +72,22 @@ cursor: pointer;
 
 /* Checkout section */
 
+.checkout{
+  justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+
+.checkout-container{
+  margin-left: 10rem;
+}
+
+
 .checkout-summary{
   display: inline-block;
   text-align: center;
   margin-top: 8rem;
+  margin-left: 23rem;
   background-color: #d9d9d9;
   padding: 2rem 2rem 2rem 2rem;
   border-radius: 15px;

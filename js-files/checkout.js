@@ -48,8 +48,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 itemDiv.innerHTML = `
                     <img src="${item.image}" alt="Product Image" class="item-image" width="80" height="80">
+                    <span class="delete" data-index="${index}">
+                    x
+                </span>
+                    <h3 class="item-name">Sunset Lamp</h3>
                     <div class="item-details">
-                        <h3 class="item-name">Sunset Lamp</h3>
                         <p class="item-color">Color: ${item.color}</p>
                         <div class="item-quantity">
                             <span class="minus" data-index="${index}">-</span>
@@ -58,9 +61,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         </div>
                         <p class="item-price">$${(item.price * item.quantity).toFixed(2)}</p>
                     </div>
-                    <span class="delete" data-index="${index}">
-                        x
-                    </span>
                 `;
 
                 checkoutContainer.appendChild(itemDiv);
