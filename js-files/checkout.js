@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         </div>
                         <p class="item-price">$${(item.price * item.quantity).toFixed(2)}</p>
                     </div>
-                    <button class="delete" data-index="${index}">
-                        <i class="fa-solid fa-x"></i>
-                    </button>
+                    <span class="delete" data-index="${index}">
+                        <span>x</span>
+                    </span>
                 `;
 
                 checkoutContainer.appendChild(itemDiv);
