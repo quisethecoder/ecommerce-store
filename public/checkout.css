@@ -63,6 +63,7 @@ cursor: pointer;
   display: flex;
   text-align: center;
   margin-left: 26rem;
+  margin-bottom: 5rem;
 }
 
 .fa-solid{
@@ -72,10 +73,35 @@ cursor: pointer;
 
 /* Checkout section */
 
-.checkout{
-  justify-content: center;
+
+.checkout-js{
+  display: flex;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  border-style: solid none none none;
+  display: flex; 
     align-items: center;
+    justify-content: center;
+}
+
+.item-name, .item-color, .item-price{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.item-image{
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.delete{
+  margin-left: 15rem;
+}
+
+.checkout{
     display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .checkout-container{
@@ -86,8 +112,9 @@ cursor: pointer;
 .checkout-summary{
   display: inline-block;
   text-align: center;
-  margin-top: 8rem;
-  margin-left: 23rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
   background-color: #d9d9d9;
   padding: 2rem 2rem 2rem 2rem;
   border-radius: 15px;
