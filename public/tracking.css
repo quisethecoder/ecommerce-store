@@ -78,6 +78,13 @@ body{
   margin: 10rem 29rem 10rem 29rem;
 }
 
+.text-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
 
 .contact-heading{
   font-size: 3rem;
