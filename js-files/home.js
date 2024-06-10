@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
           colorItems.forEach(i => i.classList.remove('active')); // Remove 'active' from all
           this.classList.add('active'); // Add 'active' to clicked item
           selectedColor = this.innerText; // Set selected color
-      });
+      }); 
   });
 
   // Function to handle changing the main product picture
