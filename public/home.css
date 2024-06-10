@@ -10,6 +10,10 @@ body{
 
 /* navbar section */
 
+.cart a{
+    text-decoration: none;
+}
+
 .cart-badge {
     position: relative;
     top: -30px;
@@ -108,7 +112,7 @@ body{
     padding-top: 5rem;
     padding-bottom: 6rem;
     margin-right: 28rem;
-    margin-left: 28rem;
+    margin-left: 26rem;
     position: absolute;
     transform: translate(-160%, 5%);
 }
@@ -258,8 +262,7 @@ body{
   .footer-container{
     display: flex;
     background-color: #000000;
-    width: 100%;
-    margin-top: 5rem;
+    margin-top: 8rem;
     padding: 3rem 2rem 3rem 11rem;
   }
 
