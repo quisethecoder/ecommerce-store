@@ -70,7 +70,9 @@ body{
 /* gallery */
 .photo-wrapper{
   display: inline-block;
+  margin-right: 10rem;
 }
+
 
 .main-photo{
   width: 500px;
@@ -80,19 +82,25 @@ body{
 }
 
 .gallery-pic{
-  width: 80px;
-    height: 65px;
+  width: 78px;
+    height: 70px;
     border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 1px;
+}
+
+
+.product-info-container{
+  margin-left: 10rem;
 }
 
 .container{
   display: flex;
   margin-left: 2rem;
+  margin-right: 10rem;
 }
 
-/* .product-info-container{
-  margin-left: 5rem;
-} */
+
 
 .drop-down{
   display: flex;
