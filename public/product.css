@@ -85,11 +85,20 @@ body{
     border-radius: 10px;
 }
 
+.container{
+  display: flex;
+  margin-left: 2rem;
+}
+
+/* .product-info-container{
+  margin-left: 5rem;
+} */
+
 .drop-down{
   display: flex;
 }
 
-.fa-solid{
+.fa-caret-up, .fa-caret-down{
   margin: 0;
 }
 
