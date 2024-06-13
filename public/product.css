@@ -85,6 +85,14 @@ body{
     border-radius: 10px;
 }
 
+.drop-down{
+  display: flex;
+}
+
+.fa-solid{
+  margin: 0;
+}
+
 
   /* footer section */
 
