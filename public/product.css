@@ -144,6 +144,29 @@ body{
 }
 
 
+.counter{
+  display: flex;
+  height: 2rem;
+  width: 10rem;
+  padding-top: 10px;
+  border-radius: 23px;
+  border:1px solid #000000;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+} 
+
+.minus, .number, .plus{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.counter span{
+  width: 100%;
+}
+
+
   /* footer section */
 
   .footer-container{
