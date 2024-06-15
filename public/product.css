@@ -96,7 +96,7 @@ body{
 .container{
   display: flex;
   margin-left: 10rem;
-  margin-right: 15rem;
+  margin-right: 5rem;
   margin-top: 5rem;
 }
 
@@ -122,9 +122,8 @@ body{
 
 .color-list{
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .color-item{
@@ -184,6 +183,14 @@ body{
 .btn:hover {
   background: #138025;
   text-decoration: none;
+}
+
+#info-paragraph-one, #info-paragraph-two, #info-paragraph-three{
+  margin-right: 9rem;
+}
+
+.info-header{
+  margin-right: 10rem;
 }
 
 
