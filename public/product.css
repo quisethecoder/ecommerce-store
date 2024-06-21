@@ -104,6 +104,8 @@ body{
 
 .drop-down{
   display: flex;
+  width: 300px;
+  border-top: 2px solid rgb(0, 0, 0);
 }
 
 .fa-caret-up, .fa-caret-down{
@@ -187,11 +189,10 @@ body{
 
 #info-paragraph-one, #info-paragraph-two, #info-paragraph-three{
   margin-right: 9rem;
+  margin-bottom: 1rem;
 }
 
-.info-header{
-  margin-right: 10rem;
-}
+
 
 
   /* footer section */
