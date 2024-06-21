@@ -112,6 +112,18 @@ body{
   margin: 0;
 }
 
+.caret{
+  margin-left: 8.1rem;
+}
+
+.caret-one{
+  margin-left: 9.5rem;
+}
+
+.caret-two{
+  margin-left: 11rem;
+}
+
 .lamp-two-zero-header, .price-one{
   margin-bottom: 1rem;
 }
