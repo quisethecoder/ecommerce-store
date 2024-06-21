@@ -112,16 +112,16 @@ body{
   margin: 0;
 }
 
-.caret{
-  margin-left: 8.1rem;
-}
-
 .caret-one{
-  margin-left: 9.5rem;
+  margin-left: 10.49rem;
 }
 
 .caret-two{
-  margin-left: 11rem;
+  margin-left: 12rem;
+}
+
+.caret{
+  margin-left: 9.28rem;
 }
 
 .lamp-two-zero-header, .price-one{
@@ -202,9 +202,17 @@ body{
 #info-paragraph-one, #info-paragraph-two, #info-paragraph-three{
   margin-right: 9rem;
   margin-bottom: 1rem;
+  display: none;
 }
 
+.info-header{
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
 
+.fa-caret-up{
+  display: none;
+}
 
 
   /* footer section */
