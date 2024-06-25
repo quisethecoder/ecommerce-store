@@ -16,14 +16,13 @@ galleryPhotos.forEach(galleryPhoto => {
     });
 });
 
-// colorItems.forEach(item => {
-//     item.addEventListener('click', function(){
-//         colorItems.forEach(i => i.classList.remove('.active'));
-//         this.classList.add('active');
-//         selectedColor = this.innerText;
-//     });
-// });
-
+colorItems.forEach(item => {
+    item.addEventListener('click', function() {
+        colorItems.forEach(i => i.classList.remove('active'));
+        this.classList.add('active');
+        selectedColor = this.innerText;
+    });
+});
 
 
 minusButton.addEventListener('click', function() {
