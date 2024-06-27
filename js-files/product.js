@@ -1,7 +1,7 @@
 const galleryPhotos = document.querySelectorAll(".gallery-pic");
 const colorItems = document.querySelectorAll(".color-item");
 const minusButton = document.getElementById("minus");
-const plusButton = document.querySelector(".plus");
+const plusButton = document.getElementById("plus");
 const addToCartButton = document.querySelector(".btn");
 const infoParaOne = document.getElementById("info-paragraph-one");
 const infoParaTwo = document.getElementById("info-paragraph-two");
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function (){
 let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
 
 let selectedColor = "Sun";
-let quantity = "1";
+let quantity = 1;
 
 galleryPhotos.forEach(galleryPhoto => {
     galleryPhoto.addEventListener('click', function(){
