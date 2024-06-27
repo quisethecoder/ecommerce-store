@@ -119,20 +119,3 @@ function hide(){
     document.getElementById("hideMeTwo").style.display = "block";
     document.getElementById("showMeTwo").style.display = "none";
  };
-
-
-
-
-//  function hideTwo(){
-//     var hidePara = infoParaThree.style.display = "none";
-
-//     document.getElementById("showMeTwo").style.display = "block";
-//     document.getElementById("hideMeTwo").style.display = "none";
-//  };
-
-//  function showTwo(){
-//     var showPara = infoParaThree.style.display = "block";
-
-//     document.getElementById("hideMeTwo").style.display = "block";
-//     document.getElementById("showMeTwo").style.diplay = "none";
-//  };
