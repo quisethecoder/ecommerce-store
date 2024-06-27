@@ -2,9 +2,14 @@ const galleryPhotos = document.querySelectorAll(".gallery-pic");
 const colorItems = document.querySelectorAll(".color-item");
 const minusButton = document.getElementById("minus");
 const plusButton = document.querySelector(".plus");
+const addToCartButton = document.querySelector(".btn");
 const infoParaOne = document.getElementById("info-paragraph-one");
 const infoParaTwo = document.getElementById("info-paragraph-two");
 const infoParaThree = document.getElementById("info-paragraph-three");
+
+document.addEventListener("DOMContentLoaded", function (){
+
+let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
 
 let selectedColor = "Sun";
 let quantity = "1";
@@ -35,6 +40,45 @@ minusButton.addEventListener('click', function() {
 plusButton.addEventListener('click', function() {
     quantity++;
     document.querySelector('.number').textContent = quantity; 
+});
+
+function updateCartBadge(){
+    const cartBadge = document.querySelector(".cart-badge");
+    const totalItems = cart.reduce((acc, item) => acc + item.quantity,0);
+    cartBadge.textContent = totalItems;
+    cartBadge.style.display = totalItems > 0 ? "block" : "none";
+}
+
+function addToCart() {
+    const existingItem = cart.find(item => item.color === selectedColor);
+
+    if(existingItem){
+        existingItem.quantity += quantity;
+    } else{
+        const imageMapping = {
+            "Sun": "./images/sunsslphoto.png",
+            "Sunset": "./images/sunsetsslphoto.png",
+            "Sunset Red": "./images/sunsetredsslphoto.png",
+            "Rainbow": "./images/rainbowsslphoto.png"
+        };
+
+        const newItem = {
+            color: selectedColor,
+            quantity: quantity,
+            price: 29.99,
+            image: imageMapping[selectedColor] || ".images/sunsslphoto.png",
+        };
+
+        cart.push(newItem);
+    };
+
+    sessionStorage.setItem("cart", JSON.stringify(cart));
+    updateCartBadge();
+};
+
+addToCartButton.addEventListener("click", addToCart);
+updateCartBadge();
+
 });
 
 
@@ -75,6 +119,7 @@ function hide(){
     document.getElementById("hideMeTwo").style.display = "block";
     document.getElementById("showMeTwo").style.display = "none";
  };
+
 
 
 
