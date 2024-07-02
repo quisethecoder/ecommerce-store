@@ -227,6 +227,33 @@ body{
   display: none;
 }
 
+/* banner section */
+
+.banner-container{
+  display: flex;
+  background: #e5c75c;
+  margin: 10rem 12rem 5rem 8rem;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 50px;
+}
+
+.ban-word-wrapper{
+  margin-top: 3rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.banner-header{
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+
+.banner-picture{
+  width: 402px;
+  height: 388px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
 
   /* footer section */
 
