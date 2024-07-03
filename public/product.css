@@ -266,7 +266,7 @@ body{
 .mid-sec-one{
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
   margin: 8rem 10rem 10rem 14rem;
 }
 
@@ -274,14 +274,39 @@ body{
   margin: 7rem 5rem 5rem 5rem;
 }
 
-.explain-header{
-  font-size: 45px;
-  margin-bottom: 1rem;
+.explain-header, .exp-header-two{
+  font-size: 40px;
+  margin-bottom: 2rem;
 }
 
 .explain-para{
   margin-bottom: 2rem;
 }
+
+.explanation-container-two{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem 12rem 10rem 14rem;
+}
+
+.howitworks-two{
+  width: 434px;
+  height: 450px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.exp-wrapper-two{
+  margin-bottom: 3rem;
+}
+
+.para-two{
+  margin-bottom: 3rem;
+}
+
+
 
   /* footer section */
 
