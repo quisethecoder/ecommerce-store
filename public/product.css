@@ -62,7 +62,7 @@ body{
   margin-left: 26rem;
 }
 
-.fa-solid{
+.fa-cart-shopping{
   margin-top: 6rem;
   margin-left: 10rem;
 }
@@ -307,7 +307,13 @@ body{
 }
 
 /* Review Section */
-
+.rating{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  margin: 1rem 81.5rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 15px;
+}
 
 
   /* footer section */
