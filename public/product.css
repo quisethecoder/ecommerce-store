@@ -307,16 +307,38 @@ body{
 }
 
 /* Review Section */
+
+.review-header, .rating{
+  font-size: 45px;
+}
+
 .rating{
   color: rgb(255, 255, 255);
   background-color: #000000;
-  margin: 1rem 81.5rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 15px;
 }
 
+.rate{
+  font-size: 20px;
+}
+
+.review-number{
+  font-size: 15px;
+  color: #bebebe;
+  margin-left: 8px;
+}
+
+.ave-rate-wrapper{
+  display: flex;
+}
+
 .rating-wrapper{
   display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .fa-star{
@@ -327,7 +349,7 @@ body{
   background-color: #dedede;
   margin-left: 1rem;
   border-radius: 15px;
-  padding-right: 8rem;
+  padding-right: 4rem;
   height: 24px;
 }
 
@@ -336,7 +358,8 @@ body{
   width: 85%;
   background: #d9cea7;
   border-radius: 15px;
-  padding-right: 7rem;
+  padding-right: 3rem;
+  margin-right: 4rem;
 }
 
 .gray-two{
@@ -359,12 +382,13 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   background: #000000;
   padding: 10px 20px 10px 20px;
   border: solid #000000 1px;
   text-decoration: none;
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 
@@ -372,7 +396,6 @@ body{
   background: #3b3b3b;
   text-decoration: none;
 }
-
 
   /* footer section */
 
