@@ -352,6 +352,26 @@ body{
   margin-right: 7rem;
 }
 
+.button{
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+
+.button:hover {
+  background: #3b3b3b;
+  text-decoration: none;
+}
 
 
   /* footer section */
