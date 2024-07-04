@@ -397,6 +397,18 @@ body{
   text-decoration: none;
 }
 
+.review-photo-one{
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.review-photo-two, .review-photo-three{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
   /* footer section */
 
   .footer-container{
