@@ -315,6 +315,40 @@ body{
   border-radius: 15px;
 }
 
+.rating-wrapper{
+  display: flex;
+}
+
+.fa-star{
+  color: #e5c75c;
+}
+
+.review-border{
+  background-color: #dedede;
+  margin-left: 1rem;
+  border-radius: 15px;
+  padding-right: 8rem;
+  height: 24px;
+}
+
+.gray{
+  height: 24px;
+  width: 85%;
+  background: #d9cea7;
+  border-radius: 15px;
+  padding-right: 7rem;
+}
+
+.gray-two{
+  height: 24px;
+  width: 85%;
+  background: #d9cea7;
+  border-radius: 15px;
+  padding-right: 2rem;
+  margin-right: 5rem;
+}
+
+
 
   /* footer section */
 
