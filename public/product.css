@@ -413,6 +413,7 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-left: 15rem;
 }
 
 [data-component="slideshow"] .slide{
@@ -430,14 +431,26 @@ body{
 .name-header{
   font-size: 20px;
   color: #000000;
+  margin-left: 2rem;
 }
 
 .review-star{
   font-size: 25px;
 }
 
+.customer-rates{
+  margin-left: 1.2rem;
+}
+
 .customer-review{
   color: #000000;
+}
+
+.review-section-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7rem;
 }
 
   /* footer section */
