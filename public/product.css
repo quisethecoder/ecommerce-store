@@ -288,7 +288,7 @@ body{
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  margin: 8rem 12rem 10rem 14rem;
+  margin: 8rem 11rem 10rem 14rem;
 }
 
 .howitworks-two{
@@ -400,13 +400,13 @@ body{
 .review-photo-one{
   width: 200px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 200px;
 }
 
 .review-photo-two, .review-photo-three{
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 75px;
 }
 
   /* footer section */
