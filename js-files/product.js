@@ -6,6 +6,7 @@ const addToCartButton = document.querySelector(".btn");
 const infoParaOne = document.getElementById("info-paragraph-one");
 const infoParaTwo = document.getElementById("info-paragraph-two");
 const infoParaThree = document.getElementById("info-paragraph-three");
+const slideShows = document.querySelectorAll('[data-component="slideshow"]');
 
 document.addEventListener("DOMContentLoaded", function (){
 
@@ -118,4 +119,23 @@ function hide(){
     var showPara = infoParaThree.style.display = "block"
     document.getElementById("hideMeTwo").style.display = "block";
     document.getElementById("showMeTwo").style.display = "none";
+ };
+
+ slideShows.forEach(initSlideShow);
+
+ function initSlideShow(slideshow){
+    var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`);
+
+    var index = 0, time = 5000;
+    slides[index].classList.add('active');
+    
+    setInterval( () => {
+        slides[index].classList.remove('active');
+
+        index++;
+
+        if(index === slides.length) index = 0;
+
+        slides[index].classList.add('active');
+    }, time);
  };

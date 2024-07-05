@@ -409,6 +409,37 @@ body{
   border-radius: 75px;
 }
 
+.slide{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+[data-component="slideshow"] .slide{
+  display: none;
+  background: white;
+}
+
+[data-component="slideshow"] .slide.active { 
+  display: block;
+  background: white;
+}
+
+
+
+.name-header{
+  font-size: 20px;
+  color: #000000;
+}
+
+.review-star{
+  font-size: 25px;
+}
+
+.customer-review{
+  color: #000000;
+}
+
   /* footer section */
 
   .footer-container{
