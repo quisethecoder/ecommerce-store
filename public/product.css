@@ -461,10 +461,6 @@ body{
   box-sizing: border-box;
 }
 
-/* [data-component="slideshow"] .slide{
-  display: none;
-} */
-
 [data-component="slideshow"] .slide.active { 
   opacity: 1;
   z-index: 1;
