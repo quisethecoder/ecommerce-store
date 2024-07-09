@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         sessionStorage.removeItem('cart'); // Clear the cart
         checkoutContainer.innerHTML = `
-            <p>Thank you for shopping with us! Your order number is ${orderNumber}. You can use your order number to track your package on the track package page. We hope you enjoy!</p>
+            <p class="checkout-text">Thank you for shopping with us! Your order number is ${orderNumber}. You can use your order number to track your package on the track package page. We hope you enjoy!</p>
         `;
         checkoutSummary.style.display = 'none'; // Hide the checkout summary
     };

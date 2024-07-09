@@ -169,7 +169,14 @@ cursor: pointer;
   text-decoration: none;
 }
 
-
+.checkout-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  margin: 10rem;
+}
 
 
 
