@@ -136,6 +136,15 @@ body{
 }
 
 
+.text-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  margin: 20rem;
+}
+
   /* footer section */
 
   .footer-container{
