@@ -99,16 +99,14 @@ cursor: pointer;
 }
 
 .checkout{
-    display: flex; 
-    display: flex; 
-    align-items: center;
   display: flex; 
-    align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 2rem;
+  margin-left: 10rem;
 }
 
 .checkout-container{
@@ -118,15 +116,14 @@ cursor: pointer;
 
 
 .checkout-summary{
-  display: inline-block;
+  width: 35%;
   text-align: center;
-  margin-top: 2rem;
-  margin-left: 5rem;
-  margin-bottom: 10rem;
   background-color: #d9d9d9;
   padding: 2rem;
   border-radius: 15px;
-  
+  margin-top: 2rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
 }
 
 
@@ -182,9 +179,12 @@ cursor: pointer;
 }
 
 .checkout-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 25px;
-  margin: 10rem;
+  margin-left: 25rem;
 }
 
 
