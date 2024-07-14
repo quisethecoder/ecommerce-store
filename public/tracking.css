@@ -13,6 +13,9 @@ body{
 
 .navbar{
   background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo{
@@ -52,7 +55,7 @@ body{
 
 .nav-center{
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -63,7 +66,7 @@ body{
 }
 
 .fa-solid{
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-left: 10rem;
 }
 
