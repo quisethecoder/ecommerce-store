@@ -548,7 +548,7 @@ body{
   }
   
 
-  @media screen and (max-width: 968px) {
+  @media screen and (max-width: 836px) {
 
     /* navbar section */
 
@@ -581,7 +581,7 @@ body{
 .nav-container{
     display: flex;
     text-align: center;
-    margin-left: 10rem;
+    margin-left: 12rem;
 }
 
 .n:link{
@@ -618,23 +618,24 @@ body{
 .home-text{
     background-color: #bb9306;
     border-radius: 100px;
-    padding-top: 4rem;
+    padding-top: 4rem 1rem 4rem 1rem;
     padding-bottom: 4rem;
     margin-left: 28rem;
-    margin-right: 3rem;
+    margin-right: 8rem;
     position: absolute;
     transform: translate(-160%, 5%);
 }
 
 .text-caption-header{
     font-size: 18px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 .text-caption{
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
     font-size: 12px;
 }
 /* home intro section  end*/
@@ -643,7 +644,7 @@ body{
 
 .photo-container{
     display: inline-block;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 
 .product-photo{
