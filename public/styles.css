@@ -44,12 +44,6 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.gallery-text{
-    text-decoration: none!important;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-}
-
 .n:link{
     text-decoration: none!important;
     color: rgb(255, 255, 255);
@@ -135,16 +129,19 @@ body{
     margin-bottom: 3rem;
 }
 
-/* home product photo section */
+/* home intro section end*/
+
+/* product photo section */
 
 .photo-container{
     display: inline-block;
+    margin-left: 181px;
 }
 
 .product-photo{
     width: 560px;
     height: 503px;
-    margin-left: 181px;
+    
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -155,17 +152,23 @@ body{
 }
 
 .gallery-photo{
-    margin-left: 181px;
+   
     margin-top: 1rem;
 }
 
 .gallery-text{
-    margin-left: 181px;
+   
+    text-decoration: none!important;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .gallery-text:hover{
     color: #bb9306;
 }
+
+/* product photo section */
+
 
 /* Pricing Section */
 
@@ -384,6 +387,134 @@ body{
     margin-right: 2rem;
     font-size: 15px;
 }
+/* home intro section  end*/
+
+/* product photo section */
+
+.photo-container{
+    display: inline-block;
+    margin-left: 10rem;
+}
+
+.product-photo{
+    width: 350px;
+    height: 400px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.prod-pic{
+    width: 53px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.gallery-photo{
+    margin-top: 1rem;
+}
+
+.gallery-text{
+    font-size: 15px;
+}
+
+.gallery-text:hover{
+    color: #bb9306;
+}
+
+/* product photo section */
+
+
+/* Pricing Section */
+
+.product-div{
+    display: flex;
+}
+
+.price-container{
+    margin-left: 4rem;
+}
+
+.price-heading{
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.color-heading{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.color-list{
+    display: flex;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.color-item{
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.color-item:hover, .active{
+    background-color: #000000;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.quantity-header{
+    font-size: 25px;
+}
+
+.counter{
+    height: 2rem;
+    width: 10rem;
+    padding-top: 10px;
+    display: flex;
+    border-radius: 23px;
+    border:1px solid #000000;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.minus, .num, .plus{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.counter span{
+    width: 100%;
+}
+
+.btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    background: #169b2d;
+    padding: 10px 100px 10px 100px;
+    border: solid #000000 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #138025;
+    text-decoration: none;
+  }
+
 
     
   }
