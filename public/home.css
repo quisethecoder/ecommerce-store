@@ -44,11 +44,18 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.n:link, .gallery-text{
+.gallery-text{
     text-decoration: none!important;
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
+
+.n:link{
+    text-decoration: none!important;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+} 
+
 
 .n:hover{
     color: rgb(219, 219, 219);
@@ -60,7 +67,6 @@ body{
     margin-left: 2rem;
     list-style: none;
     box-sizing: border-box;
-    color: rgb(255, 255, 255);
 }
 
 .nav-items{
