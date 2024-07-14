@@ -233,8 +233,8 @@ body{
 .banner-container{
   display: flex;
   background: #e5c75c;
-  margin: 10rem 10rem 0rem 10rem;
-  padding: 2rem 1rem 2rem 1rem;
+  margin: 10rem 11rem 0rem 10rem;
+  padding: 2rem 0rem 2rem 0rem;
   border-radius: 50px;
 }
 
