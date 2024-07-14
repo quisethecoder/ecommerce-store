@@ -344,7 +344,6 @@ body{
     margin-left: 5rem;
 }
 
-/* navbar section end  */
 
 /* home intro section */
 
@@ -515,6 +514,35 @@ body{
     text-decoration: none;
   }
 
+  /* footer section */
 
+  .footer-container{
+    display: flex;
+    background-color: #000000;
+    margin-top: 8rem;
+    padding: 3rem 2rem 3rem 11rem;
+  }
+
+  .footer-heading{
+    color: white;
+    margin-right: 3rem;
+  }
+
+  .company-links{
+    margin-right: 2rem;
+  }
+
+  .company-info{
+    margin-right: 3rem;
+  }
+
+  .info{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    list-style: none;
+    line-height: 2;
+    cursor: pointer;
+  }
     
   }
