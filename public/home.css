@@ -60,6 +60,7 @@ body{
     margin-left: 2rem;
     list-style: none;
     box-sizing: border-box;
+    color: rgb(255, 255, 255);
 }
 
 .nav-items{
