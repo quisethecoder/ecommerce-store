@@ -799,3 +799,259 @@ body{
     
   }
   
+  @media screen and (max-width: 430px){
+        /* navbar section */
+
+.cart-badge {
+    position: relative;
+    top: -28px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin-left: 1rem;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.nav-li{
+    text-align: center;
+    margin-left: 8px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.n:link{
+    text-decoration: none!important;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+} 
+
+.fa-solid{
+    margin-top: 3rem;
+    margin-left: 8px;
+}
+
+.fa-2xl{
+    font-size: 24px;
+}
+
+
+/* home intro section */
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+}
+
+.home-sunphoto{
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 1px;
+}
+
+.home-text{
+    background-color: #bb9306;
+    border-radius: 100px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 3rem 2rem 3rem 2rem;
+    position: absolute;
+    transform: translate(5%, 100%);
+}
+
+.text-caption-header{
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.text-caption{
+    margin-left: 2rem;
+    margin-right: 3rem;
+    font-size: 11px;
+}
+/* home intro section  end*/
+
+/* product photo section */
+
+.photo-container{
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.product-photo{
+    width: 300px;
+    height: 250px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.prod-pic{
+    width: 45px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.gallery-photo{
+    margin-top: 1rem;
+}
+
+.gallery-text{
+    font-size: 10px;
+}
+
+.gallery-text:hover{
+    color: #bb9306;
+}
+
+/* product photo section */
+
+
+/* Pricing Section */
+
+.product-div{
+    display: inline-block;
+}
+
+.container-heading-price{
+    margin-bottom: 1.5rem;
+}
+
+.price-container{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.price-heading{
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.color-heading{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.color-list{
+    display: flex;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.color-item{
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 8px;
+    margin-bottom: 1rem;
+}
+
+
+.color-item:hover, .active{
+    background-color: #000000;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.quantity-header{
+    font-size: 20px;
+}
+
+.counter{
+    height: 2rem;
+    width: 9rem;
+    padding-top: 10px;
+    display: flex;
+    border-radius: 23px;
+    border:1px solid #000000;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.minus, .num, .plus{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.counter span{
+    width: 100%;
+}
+
+.btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 18px;
+    background: #169b2d;
+    padding: 10px 70px 10px 70px;
+    border: solid #000000 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #138025;
+    text-decoration: none;
+  }
+
+  /* footer section */
+
+  .footer-container{
+    display: inline-block;
+    background-color: #000000;
+    margin-top: 8rem;
+    padding: 3rem 3rem 3rem 8rem;
+  }
+
+  .footer-heading{
+    color: white;
+    margin-right: 1rem;
+  }
+
+  .company-links{
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+
+  .company-info{
+    margin-right: 1rem;
+  }
+
+  .info{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    list-style: none;
+    line-height: 2;
+    cursor: pointer;
+  }
+  }
