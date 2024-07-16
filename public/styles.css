@@ -669,6 +669,7 @@ body{
 
 .product-div{
     display: flex;
+    margin-left: 1rem;
 }
 
 .price-container{
@@ -1272,7 +1273,7 @@ body{
     display: inline-block;
     background-color: #000000;
     margin-top: 8rem;
-    padding: 3rem 3rem 3rem 8rem;
+    padding: 5rem 8rem 3rem 5rem;
   }
 
   .footer-heading{
