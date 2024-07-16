@@ -1174,6 +1174,7 @@ body{
 
 .product-div{
     display: inline-block;
+    margin-left: 5px;
 }
 
 .container-heading-price{
