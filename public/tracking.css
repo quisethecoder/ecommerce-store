@@ -154,3 +154,230 @@ body{
   .info:hover{
     color: #7c7c7c;
   }
+
+  @media screen and (max-width: 1180px){
+    /* navbar section */
+
+.cart-badge {
+position: relative;
+top: -30px;
+right: -10px;
+background-color: red;
+color: white;
+border-radius: 50%;
+margin-left: 4rem;
+font-size: 8px;
+display: inline-block;
+text-align: center;
+}
+
+
+.nav-li{
+text-align: center;
+margin-left: 1rem;
+list-style: none;
+box-sizing: border-box;
+}
+
+.nav-container{
+display: flex;
+text-align: center;
+margin-left: 21rem;
+}
+
+.fa-cart-shopping{
+margin-top: 4rem;
+margin-left: 3rem;
+}
+
+/* footer section */
+
+.footer-container{
+display: flex;
+background-color: #000000;
+margin-top: 8rem;
+padding: 3rem 2rem 3rem 15rem;
+}
+
+.footer-heading{
+color: white;
+margin-right: 3rem;
+}
+
+.company-links{
+margin-right: 2rem;
+}
+
+.company-info{
+margin-right: 3rem;
+}
+
+.info{
+font-size: 15px;
+font-weight: 300;
+color: white;
+list-style: none;
+line-height: 2;
+cursor: pointer;
+}
+
+  
+}
+
+@media screen and (max-width: 1024px){
+   /* navbar section */
+
+.cart-badge {
+position: relative;
+top: -30px;
+right: -11px;
+background-color: red;
+color: white;
+border-radius: 50%;
+margin-left: 6.1rem;
+font-size: 8px;
+display: inline-block;
+text-align: center;
+}
+
+.logo{
+font-weight: 900;
+font-size: 40px;
+color: #ffffff;
+}
+
+.nav-li{
+text-align: center;
+margin-left: 1rem;
+list-style: none;
+box-sizing: border-box;
+}
+
+.nav-container{
+display: flex;
+text-align: center;
+margin-left: 10rem;
+}
+
+.fa-cart-shopping{
+margin-top: 4rem;
+margin-left: 5rem;
+}
+
+/* footer section */
+
+.footer-container{
+display: flex;
+background-color: #000000;
+margin-top: 8rem;
+padding: 3rem 2rem 3rem 9rem;
+}
+
+.footer-heading{
+color: white;
+margin-right: 3rem;
+}
+
+.company-links{
+margin-right: 2rem;
+}
+
+.company-info{
+margin-right: 3rem;
+}
+
+.info{
+font-size: 15px;
+font-weight: 300;
+color: white;
+list-style: none;
+line-height: 2;
+cursor: pointer;
+}
+
+}
+
+
+@media screen and (max-width: 430px){
+/* navbar section */
+
+.cart-badge {
+position: relative;
+top: -28px;
+right: -10px;
+background-color: red;
+color: white;
+border-radius: 50%;
+margin-left: 1rem;
+font-size: 10px;
+display: inline-block;
+text-align: center;
+}
+
+.logo{
+font-weight: 900;
+font-size: 25px;
+color: #ffffff;
+}
+
+.nav-li{
+text-align: center;
+margin-left: 8px;
+list-style: none;
+box-sizing: border-box;
+}
+
+.nav-container{
+display: flex;
+text-align: center;
+margin-left: 3.5rem;
+}
+
+.n:link{
+text-decoration: none!important;
+color: rgb(255, 255, 255);
+font-size: 12px;
+} 
+
+.fa-solid{
+margin-top: 3rem;
+margin-left: 8px;
+}
+
+.fa-2xl{
+font-size: 24px;
+}
+
+
+    /* footer section */
+
+.footer-container{
+  display: inline-block;
+  background-color: #000000;
+  margin-top: 8rem;
+  padding: 5rem 8rem 3rem 5rem;
+}
+
+.footer-heading{
+  color: white;
+  margin-right: 1rem;
+}
+
+.company-links{
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.company-info{
+  margin-right: 1rem;
+}
+
+.info{
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  list-style: none;
+  line-height: 2;
+  cursor: pointer;
+}
+}
