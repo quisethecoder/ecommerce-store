@@ -70,13 +70,6 @@ body{
   margin-left: 10rem;
 }
 
-/* gallery */
-.photo-wrapper{
-  display: inline-block;
-  margin-right: 8rem;
-  margin-left: 1rem;
-}
-
 .cart-badge{
   position: relative;
     top: -30px;
@@ -89,6 +82,15 @@ body{
     display: inline-block;
     text-align: center;
 }
+
+/* gallery */
+.photo-wrapper{
+  display: inline-block;
+  margin-right: 6rem;
+  margin-left: 1rem;
+}
+
+
 
 
 .main-photo{
@@ -107,7 +109,7 @@ body{
 
 
 .product-info-container{
-  margin-left: 10rem;
+  margin-left: 8px;
 }
 
 .container{
@@ -618,6 +620,151 @@ body{
 .fa-cart-shopping{
   margin-top: 4rem;
   margin-left: 5rem;
+}
+/* nav section end */
+
+/* gallery */
+.photo-wrapper{
+  display: inline-block;
+  margin-right: 8rem;
+  margin-left: 1rem;
+}
+
+.main-photo{
+  width: 475px;
+    height: 323px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-pic{
+  width: 74px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 1px;
+}
+
+
+.product-info-container{
+  margin-left: 7rem;
+  margin-top: 5rem;
+}
+
+.container{
+  display: inline-block;
+  margin-left: 8rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+}
+
+
+.price-one{
+  font-size: 25px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.color-list{
+  display: flex;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.color-item{
+  font-size: 17px;
+  font-weight: 300;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+
+.counter{
+  display: flex;
+  height: 2rem;
+  width: 10rem;
+  padding-top: 10px;
+  border-radius: 23px;
+  border:1px solid #000000;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+} 
+
+.minus, .number, .plus{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.counter span{
+  width: 100%;
+}
+
+.btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  background: #169b2d;
+  padding: 10px 100px 10px 100px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  background: #138025;
+  text-decoration: none;
+}
+
+#info-paragraph-one, #info-paragraph-two, #info-paragraph-three{
+  margin-right: 9rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.info-header{
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.fa-caret-up{
+  display: none;
+}
+
+/* banner section */
+
+.banner-container{
+  display: flex;
+  background: #e5c75c;
+  margin: 10rem 4rem 0rem 4rem;
+  padding: 2rem 0rem 2rem 0rem;
+  border-radius: 50px;
+}
+
+.banner-para{
+  font-size: 15px;
+}
+
+.ban-word-wrapper{
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+
+.banner-header{
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+.banner-picture{
+  width: 300px;
+  height: 288px;
+  border-radius: 50%;
+  margin-right: 5rem;
 }
 
  /* footer section */
