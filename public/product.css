@@ -819,7 +819,11 @@ body{
 /* review section */
 
 .review-header, .rating{
-  font-size: 40px;
+  font-size: 38px;
+}
+
+.review-header{
+  margin-left: 1rem;
 }
 
 .review-section-container{
@@ -833,7 +837,7 @@ body{
   display: flex;
   background-color: #000000;
   margin-top: 8rem;
-  padding: 3rem 2rem 3rem 9rem;
+  padding: 3rem 2rem 3rem 4rem;
 }
 
 .footer-heading{
