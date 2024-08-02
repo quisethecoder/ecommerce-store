@@ -336,6 +336,8 @@ margin-top: 4rem;
 margin-left: 5rem;
 }
 
+/* checkout section */
+
 .checkout-js{
   display: flex;
   align-items: center;
@@ -532,6 +534,121 @@ margin-left: 8px;
 
 .fa-2xl{
 font-size: 24px;
+}
+
+/* checkout section */
+
+.checkout-js{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-style: solid none none none;
+}
+
+.item-name, .item-color, .item-price{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.item-image{
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.delete{
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.checkout{
+  display: inline-block; 
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.checkout-container{
+  width: 100%;
+  margin-right: 1rem;
+}
+
+
+.checkout-summary{
+  width: 70%;
+  text-align: center;
+  background-color: #d9d9d9;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 4rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+
+.checkout-header, .sub-money, .btn{
+  font-weight: 300;
+}
+
+.checkout-header{
+  font-size: 36px;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #000
+}
+
+.sub-money{
+  margin-top: 2rem;
+}
+
+.mid{
+  opacity: 53%;
+  font-size: 24px;
+}
+
+.low{
+  font-size: 28px;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #000
+}
+
+
+.btn {
+  display: block;
+  width: 100%;
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 24px;
+  background: #169b2d;
+  padding: 10px 0;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #138025;
+  text-decoration: none;
+}
+
+.checkout-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 25rem;
 }
 
 
