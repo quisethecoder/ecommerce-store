@@ -651,7 +651,7 @@ body{
 
 .container{
   display: flex;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-right: 1rem;
 }
 
@@ -738,7 +738,7 @@ body{
 .banner-container{
   display: flex;
   background: #e5c75c;
-  margin: 10rem 4rem 0rem 4rem;
+  margin: 8rem 4rem 0rem 4rem;
   padding: 2rem 0rem 2rem 0rem;
   border-radius: 50px;
 }
@@ -776,7 +776,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8rem 6rem 10rem 10rem;
+  margin: 1rem 6rem 3rem 4.5rem;
 }
 
 .exp-para-wrapper{
@@ -797,22 +797,34 @@ body{
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  margin: 8rem 11rem 10rem 14rem;
+  margin: 2rem 2rem 3rem 7rem;
 }
 
 .howitworks-two{
-  width: 434px;
-  height: 450px;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  width: 350px;
+  height: 400px;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .exp-wrapper-two{
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
 }
 
 .para-two{
   margin-bottom: 3rem;
+}
+
+/* review section */
+
+.review-header, .rating{
+  font-size: 40px;
+}
+
+.review-section-container{
+  margin-right: 1rem;
+  margin-left: 3rem;
 }
 
  /* footer section */
