@@ -376,6 +376,85 @@ margin-left: 8px;
 font-size: 24px;
 }
 
+/* Contact Section */
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+margin-right: 4rem;
+margin-left: 4rem;
+  max-width: 400px;
+}
+
+.contact-header{
+  font-size: 38px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 10rem;
+}
+
+.email-name{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+ .number, .comment{
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 12px;
+  background: #efefef;
+  border: solid #efefef 1px;
+  margin-bottom: 1rem;
+}
+
+.name, .email {
+  border-radius: 50px;
+  padding: 20px 8px;
+  background: #efefef;
+  border: solid #efefef 1px;
+  margin-bottom: 1rem;
+}
+
+
+.comment{
+  height: 150px;
+}
+
+
+.btn{
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 24px;
+  background: #000000;
+  padding: 10px 30px 10px 30px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+}
+
+
+.text-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  margin: 5rem;
+}
+
 
     /* footer section */
 
