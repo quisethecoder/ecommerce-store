@@ -969,6 +969,251 @@ body{
   font-size: 24px;
 }
 
+/* gallery */
+.photo-wrapper{
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.main-photo{
+  width: 300px;
+    height: 250px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-pic{
+  width: 45px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 1px;
+    margin-bottom: 3rem;
+}
+
+
+.product-info-container{
+  margin-left: 1rem;
+}
+
+.container{
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+
+.price-one{
+  font-size: 25px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.color-list{
+  display: flex;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.color-item{
+  font-size: 17px;
+  font-weight: 300;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+
+.counter{
+  display: flex;
+  height: 2rem;
+  width: 10rem;
+  padding-top: 10px;
+  border-radius: 23px;
+  border:1px solid #000000;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+} 
+
+.minus, .number, .plus{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.counter span{
+  width: 100%;
+}
+
+.btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  background: #169b2d;
+  padding: 10px 100px 10px 100px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  background: #138025;
+  text-decoration: none;
+}
+
+#info-paragraph-one, #info-paragraph-two, #info-paragraph-three{
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.info-header{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fa-caret-up{
+  display: none;
+}
+
+.drop-down{
+  display: flex;
+  width: 300px;
+  border-top: 2px solid rgb(0, 0, 0);
+}
+
+.fa-caret-up, .fa-caret-down{
+  margin: 0;
+}
+
+.caret-one{
+  margin-left: 10.49rem;
+}
+
+.caret-two{
+  margin-left: 12rem;
+}
+
+.caret{
+  margin-left: 9.28rem;
+}
+
+
+/* banner section */
+
+.banner-container{
+  display: inline-block;
+  background: #e5c75c;
+  margin: 4rem 1rem 0rem 1rem;
+  padding: 1rem 0rem 1rem 0rem;
+  border-radius: 50px;
+}
+
+.banner-para{
+  font-size: 15px;
+}
+
+.ban-word-wrapper{
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.banner-header{
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+.banner-picture{
+  width: 300px;
+  height: 288px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  margin-left: 2.5rem;
+}
+
+/* informational section */
+
+.howitworks{
+  width: 300px;
+  height: 375px;
+}
+
+.mid-sec-one{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem 1rem 3rem;
+}
+
+.exp-para-wrapper{
+  margin: 4rem 1rem 2rem 1rem;
+}
+
+.explain-header, .exp-header-two{
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.explain-para{
+  margin-bottom: 1rem;
+}
+
+.explanation-container-two{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 2rem 3rem 1rem;
+}
+
+.howitworks-two{
+  width: 300px;
+  height: 330px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.exp-wrapper-two{
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.para-two{
+  margin-bottom: 3rem;
+}
+
+/* review section */
+
+.review-header, .rating{
+  font-size: 38px;
+}
+
+.review-header{
+  margin-left: 1rem;
+}
+
+.review-section-container{
+  margin-right: 1rem;
+  margin-left: 3rem;
+}
+
+ /* footer section */
+
+ .footer-container{
+  display: flex;
+  background-color: #000000;
+  margin-top: 8rem;
+  padding: 3rem 2rem 3rem 4rem;
+}
+
+
 
       /* footer section */
 
