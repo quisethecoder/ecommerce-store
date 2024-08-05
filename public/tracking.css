@@ -300,8 +300,8 @@ right: -11px;
 background-color: red;
 color: white;
 border-radius: 50%;
-margin-left: 6.1rem;
-font-size: 8px;
+margin-left: 2rem;
+font-size: 11px;
 display: inline-block;
 text-align: center;
 }
@@ -327,7 +327,7 @@ margin-left: 10rem;
 
 .fa-cart-shopping{
 margin-top: 4rem;
-margin-left: 5rem;
+margin-left: 1rem;
 }
 
 /* Tracking Section */
