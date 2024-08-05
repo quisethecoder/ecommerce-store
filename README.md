@@ -4,15 +4,15 @@ This project is a clean and responsive web page designed to showcase and sell th
 
 Features
 
-*Responsive Design: Optimized for various screen sizes and devices.
+* Responsive Design: Optimized for various screen sizes and devices.
 
-*Interactive Product Gallery: Users can click on thumbnails to view larger images.
+* Interactive Product Gallery: Users can click on thumbnails to view larger images.
 
-*Dynamic Cart Functionality: Add and remove items from the cart with real-time updates.
+* Dynamic Cart Functionality: Add and remove items from the cart with real-time updates.
 
-*Accessible Navigation: Easy-to-use navigation menu for seamless browsing.
+* Accessible Navigation: Easy-to-use navigation menu for seamless browsing.
 
-*Product Variants: Choose from different colors and quantities of the product.
+* Product Variants: Choose from different colors and quantities of the product.
 
 
 Technologies Used
