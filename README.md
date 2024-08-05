@@ -2,6 +2,9 @@
 
 This project is a clean and responsive web page designed to showcase and sell the captivating Sunset Lamp. The page features a modern design with intuitive navigation, interactive product gallery, and user-friendly cart functionality.
 
+
+
+
 **Features**
 
 * Responsive Design: Optimized for various screen sizes and devices.
@@ -15,6 +18,9 @@ This project is a clean and responsive web page designed to showcase and sell th
 * Product Variants: Choose from different colors and quantities of the product.
 
 
+
+
+
 **Technologies Used**
 
 * HTML5: For structuring the content.
@@ -26,6 +32,9 @@ This project is a clean and responsive web page designed to showcase and sell th
 * Font Awesome: For icons.
   
 * Google Fonts: For typography.
+
+
+
 
 
 **Photos**
