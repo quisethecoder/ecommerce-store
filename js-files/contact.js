@@ -16,7 +16,7 @@ trackingButton.addEventListener("click", handleContact);
 
 
 
-    let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
+    let cart = JSON.parse(sessionStorage.getItem("cart")) || []; // Check for cart information
 
     function updateCartBadge() {
         const cartBadge = document.querySelector('.cart-badge');
