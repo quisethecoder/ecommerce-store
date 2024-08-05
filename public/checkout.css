@@ -262,6 +262,16 @@ margin-top: 4rem;
 margin-left: 3rem;
 }
 
+
+.checkout-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 15rem;
+}
+
 /* footer section */
 
 .footer-container{
@@ -448,7 +458,9 @@ margin-left: 5rem;
   align-items: center;
   text-align: center;
   font-size: 25px;
-  margin-left: 25rem;
+  margin-left: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 
@@ -648,7 +660,7 @@ font-size: 24px;
   align-items: center;
   text-align: center;
   font-size: 25px;
-  margin-left: 25rem;
+  margin-left: 0rem;
 }
 
 
