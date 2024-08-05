@@ -1,8 +1,8 @@
 # Sunset Lamp E-Commerce Multipage Website
 
-This project is a clean and responsive web page designed to showcase and sell the captivating Sunset Lamp. The page features a modern design with intuitive navigation, interactive product gallery, and user-friendly cart functionality.
+Designed and developed a responsive e-commerce web page featuring an interactive product gallery, dynamic cart functionality, and accessible navigation, utilizing Figma for UI/UX design and HTML5, CSS3, and JavaScript for a modern and user-friendly shopping experience.
 
-
+Figma Design: https://www.figma.com/design/VHxNkNwz3xPCsnCBpkyxwv/Sunset-Lamp-Website-Design?node-id=0-1&t=kuMEiWsdOR9Zv7Ya-0
 
 
 **Features**
