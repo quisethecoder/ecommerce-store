@@ -13,6 +13,22 @@ cursor: pointer;
 }
 
 /* navbar section */
+.cart a{
+  text-decoration: none;
+}
+
+.cart-badge {
+  position: relative;
+  top: -30px;
+  right: -11px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  margin-left: 11rem;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+}
 
 .navbar{
   background-color: #000000;

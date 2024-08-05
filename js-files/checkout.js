@@ -37,6 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
+    function updateCartBadge() {
+        const cartBadge = document.querySelector('.cart-badge');
+        const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0); // Calculate total items
+        cartBadge.textContent = totalItems;
+        cartBadge.style.display = totalItems > 0 ? 'block' : 'none'; // Display badge if there are items
+    }
+    
+
     // Function to render the cart
     const renderCart = () => {
         checkoutContainer.innerHTML = ''; // Clear existing content
@@ -115,10 +123,22 @@ document.addEventListener('DOMContentLoaded', function () {
             <p class="checkout-text">Thank you for shopping with us! Your order number is ${orderNumber}. You can use your order number to track your package on the track package page. We hope you enjoy!</p>
         `;
         checkoutSummary.style.display = 'none'; // Hide the checkout summary
+
+        const cartBadge = document.querySelector('.cart-badge');
+        cartBadge.textContent = '0';
+        cartBadge.style.display = 'none'; // Hide the cart badge after checkout
     };
 
     // Add event listener for the checkout button
     checkoutButton.addEventListener('click', handleCheckout);
 
     renderCart(); // Initial render of the cart
+    updateCartBadge();
+
 });
+
+
+
+
+
+
